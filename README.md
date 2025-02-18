@@ -1,4 +1,4 @@
-# Analise de variações de temperatura média mensal no mundo para adiferentes países
+# Análise de variações de temperatura média mensal no mundo para adiferentes países
 
 **Autores:** Fernando
 
