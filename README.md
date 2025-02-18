@@ -1,6 +1,10 @@
-# Analise de variações de temperatura média mensal no mundo para adiferentes países
+# Análise de variações de temperatura média mensal no mundo para adiferentes países
 
-**Autores:** Fernando
+**Autores:**
+ 
+8. Fernando
+1.Teste
+1.Teste2
 
 ## Abstract
 
