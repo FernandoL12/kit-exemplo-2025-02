@@ -2,11 +2,11 @@
 
 **Autores:**
  
-8. Fernando
+1. Fernando
 
-1. Teste
+8. Teste
 
-1. Teste2
+9. Teste2
 
 ## Abstract
 
