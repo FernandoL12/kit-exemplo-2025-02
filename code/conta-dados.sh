@@ -7,6 +7,7 @@
 # As variáveis 1, 2, 3, ..., contem os argumentos passados na linha de comando
 # para o script. Nesse caso, "$1" é o primeiro argumento passado (a pasta onde
 # estão os dados).
+#Teste
 
 for arquivo in $1/*.csv
 do
