@@ -8,7 +8,7 @@
 
 %Vamos importar um pacote
 \usepackage[brazil]{babel}
-
+\usepackage{graphicx}
 
 
 %Corpo
@@ -38,7 +38,7 @@ Esse já vai ser outro parágrafo
 \section{Metodologia}
 \label{sec:metodos}
 
-Aqui vou descrever tudo o que eu fiz
+	Aqui vou descrever tudo o que eu fiz
 Ajustamos uma reta aos cinco últimos anos dos dados
 de temperatura média mensal para cada país.
 Assim calculamos a taxaa de variação da temperatura recente
@@ -66,8 +66,25 @@ $a$ o coeficiente angular;
 \noindent
 $b$ o coeficiente linear.
 
-Utilizamos a equação \ref{eq:reta} em um código Python para fazer o ajuste da reta com 
+	Utilizamos a equação \ref{eq:reta} em um código Python para fazer o ajuste da reta com 
 o Método dos Mínimos Quadrados (MMQ). Isso está descrito na seção \ref{sec:metodos}.
+
+\section{Resultados}
+
+	Analisamos os dados de 225 países. São muitos para listar aqui. Confia.
+Os resultados da análise de temperatura estão na figura \ref{fig:variacao}
+
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.7\columnwidth]{../figuras/variacao_de_temperatura.png}
+	\centering
+	\caption{
+		Variação de tempuratura média mensal dos últimos cinco anos
+		a) Países com as cinco maiores variações de temperatura
+		b)Países com as conco menores variações de temperatura.
+	}
+	\label{fig:variacao}
+\end{figure}
 
 \end{document}
 
