@@ -6,16 +6,70 @@
 % Vamos definir a classe do artigo, e influencia na formatação
 \documentclass{article} 
 
-
+%Vamos importar um pacote
+\usepackage[brazil]{babel}
 
 
 
 %Corpo
 % Onde a gente escreve o texto
 
+%Começa o documento
 \begin{document}
+
+\title{Análise de variação de temperatura dos últimos cinco anos}
+\author{Fernando Lima de Oliveira}
+%Cria o título
+\maketitle
+
+\begin{abstract}
+Meu resumo
+\end{abstract}
 
 Meu primeiro artigo em LaTeX
 
+\section{Introdução}
+
+Isso é a introdução
+Outra frase da inrodução
+
+Esse já vai ser outro parágrafo
+
+\section{Metodologia}
+\label{sec:metodos}
+
+Aqui vou descrever tudo o que eu fiz
+Ajustamos uma reta aos cinco últimos anos dos dados
+de temperatura média mensal para cada país.
+Assim calculamos a taxaa de variação da temperatura recente
+
+\begin{equation}
+y = \int \Omega x dx
+\end{equation}
+
+A equação da reta é
+
+\begin{equation}
+T(t) = a t + b \ ,
+\label{eq:reta}
+\end{equation}
+
+\noindent
+Onde $T$ é a temperatura; 
+
+\noindent
+$t$ o tempo; 
+
+\noindent
+$a$ o coeficiente angular; 
+
+\noindent
+$b$ o coeficiente linear.
+
+Utilizamos a equação \ref{eq:reta} em um código Python para fazer o ajuste da reta com 
+o Método dos Mínimos Quadrados (MMQ). Isso está descrito na seção \ref{sec:metodos}.
 
 \end{document}
+
+
+
